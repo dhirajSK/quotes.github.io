@@ -1,0 +1,30 @@
+
+.me {
+  font-family: 'Sansita', sans-serif;
+  color:rgba(0,0,0,.8);
+  margin:50px 100px 0px 100px; 
+  background-color: #ddffdd;
+  border-left: 6px solid #4CAF50;
+  padding:15px 30px 10px 30px;
+  font-size:40px;
+}
+
+#rand, .twitter{
+ margin: 5% 50% 0% 50%; 
+}
+#rand:hover{
+  background-color:#4CA334;
+  color:white;
+}
+.twitter{
+  background-color:#4CAF50;
+  color:white;
+}
+#rand{
+  background-color:#4CAF50;
+  color:white;
+}
+.twitter:hover{
+  background-color:#0084b4;
+  color:white;
+}
