@@ -1,7 +1,7 @@
 $(document).ready(function(){	   
   $("#rand").on("click",function(data){
     data.preventDefault();
-    $.getJSON('http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=40&callback=',function(data){
+    $.getJSON('https://crossorigin.me/http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=40&callback=',function(data){
     var s="";
       i=Math.floor(Math.random()*40);
     s+=data[i].content+"<br>-"+data[i].title;  
