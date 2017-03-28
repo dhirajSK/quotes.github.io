@@ -1,2 +1,3 @@
-# quotes.github.io
 Random quote generator
+
+https://dhirajsk.github.io/randomQuotes/
